@@ -4,6 +4,9 @@ const thirdRow = prompt("Enter third row")
 
 if ((firstRow === "" || secondRow === "" || thirdRow === "")) {
     alert("Some of your row's are empty")
+} else if ((firstRow === null || secondRow === null || thirdRow === null)) {
+    alert("You cancel some of questions - See you next time:-)")
+
 } else if (firstRow.trim() === "" || secondRow.trim() === "" || thirdRow.trim() === "") {
     alert("Some of your row's have only spaces")
 } else {
